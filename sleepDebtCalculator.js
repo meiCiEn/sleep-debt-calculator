@@ -5,29 +5,21 @@ function getSleepHours ( day )
     {
         case 'monday':
             return 8;
-            break;
         case 'tuesday':
             return 6;
-            break;
         case 'wednesday':
             return 5;
-            break;
         case 'thursday':
             return 4.5;
-            break;
         case 'friday':
             return 7;
-            break;
         case 'saturday':
             return 6.5;
-            break;
         case 'sunday':
             return 5.5;
-            break;
 
         default:
             return 'invalid day';
-            break;
     }
 }
 
